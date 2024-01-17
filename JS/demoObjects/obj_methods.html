@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>ObjMethods</title>
+    </head>
+
+    <body>
+        <h2 id = "demo"></h2>
+        <button id = "click">Click Me</button>
+
+        <script>
+            let user = {
+                name: "Freddie",
+                age: 123
+            };
+
+            function sayHi(){
+                alert("Hello!");
+            }
+
+            user.message = sayHi;
+            document.getElementById("demo").innerHTML = "Hi " + user.name;
+            document.getElementById("click").onclick = user.message;
+        </script>
+    </body>
+</html>

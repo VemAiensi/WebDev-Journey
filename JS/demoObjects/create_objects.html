@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>JS Obj</title>
+    </head>
+    <body>
+        <h1 id = "demo">
+
+        </h1>
+
+        <script>
+            var student = {
+                name: "Mayan",
+                age: "20",
+                studies: "Computer Science"
+            };
+
+            document.getElementById("demo").innerHTML = student.name + " of the age " + student.age;
+        </script>
+
+        <script>
+            var student = new Object();
+            student.name = "Chris", student.age = 20, student.studies = "ggness";
+            document.getElementById("demo").innerHTML = student.name + " of the age " + student.age;
+        </script>
+
+        <script>
+            function stud(name, age, studies){
+                this.name = name;
+                this.age = age;
+                this.studies = studies;
+            }
+            //doesn't work
+            var student = stud("Hey", 10, "jaoihwao");
+            document.getElementById("demo").innerHTML = student.name + " of the age " + student.age;
+        </script>
+    </body>
+</html>

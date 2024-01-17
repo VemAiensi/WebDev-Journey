@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>ObjMethods</title>
+    </head>
+
+    <body>
+        <h2 id = "demo"></h2>
+
+        <script>
+            var car = {
+                model: "BMW 320d",
+                color: "Navy BLue",
+                fuelType: "Diesel",
+
+                get fuel() {
+                    return this.fuelType;
+                },
+
+                //must learn getters and setters in a different tutorial 
+            }
+            document.getElementById("demo").innerHTML = car.fuel;
+        </script>
+    </body>
+</html>
