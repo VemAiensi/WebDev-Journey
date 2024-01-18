@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Functions</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <button id="demo2">hey</button>
+        <button id="demoFuncObject"> click</button>
+        <button id="arrowFunc"> click</button>
+        
+    </body>
+
+    <script>
+        //so functions are basically methods 
+        function multiply(val) {
+            val=val*val;
+            return val;
+        }
+        document.getElementById("demo").innerHTML = multiply(3);
+
+        let x = function(){
+            alert("Hey!")
+        }
+
+        document.getElementById("demo2").onclick = x;
+
+        //self invoking
+        (function() { alert("Hello!!!")})();
+
+        (function() { alert("Hi!!!")})();
+
+        let a = "GGness is life ";
+        var body = "return a + name";
+
+        //the last parameter defines the process
+        var call = new Function("name", body);
+        let g = function(){
+            alert(call("Vem"))
+        }
+        document.getElementById("demoFuncObject").onclick = g;
+
+        //arrow functions
+        const display = (a, b, c) => {return a+b+c} 
+        let d = function(){
+            alert(display(a, "coz ", "it's weird."))
+        }
+        document.getElementById("arrowFunc").onclick = d;
+    </script>
+</html>
