@@ -1,0 +1,148 @@
+<html>
+<title>My SlamBook</title>
+<body>
+<style> tr, td{padding-bottom:5px; padding-left:30px;}</style>
+<h1 style="text-align:center">My Slambook</h1>
+<form action="">
+<fieldset>
+	<legend><b>PERSONAL INFO</b></legend>
+<table >
+
+<tr>
+	<td style="width:30%">NAME:
+	</td>
+	<td><input type="text" name="Name" value="" size="60"><br>
+	</td>
+</tr>
+<tr>
+	<td>NICKNAME:
+	</td>
+	<td><input type="text" name="nickname" value="" size="60"><br>
+	</td>
+</tr>
+
+<tr>
+	<td>ADDRESS:
+	</td>
+	<td><input type="text" name="adress" value="" size="60"><br>
+	</td>
+</tr>
+<tr>
+	<td>BIRTHDAY:
+	</td>
+	<td><input type="text" name="birthday" value="" size="60"><br>
+	</td>
+</tr>
+<tr>
+	<td>GENDER:
+	</td>
+	<td><input type="radio" id="male" name="gender" value="Male" >
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label><br></p>
+	</td>
+</tr>
+<tr>
+	<td>MOTTO: 
+	</td>
+	<td><textarea rows="2" cols="59"></textarea>
+	</td>
+</tr>
+<tr>
+	<td>HOBBIES:
+	</td>
+	<td><input type="text" name="hobbies" value="" size="60">
+	</td>
+</tr>
+<tr>
+	<td>SKILLS: 
+	</td>
+	<td><input type="text" name="skills" value="" size="60">
+	</td>
+</tr>
+<tr>
+	<td>GOALS:
+	</td>
+	<td><textarea rows="2" cols="59"></textarea>
+	</td>
+</tr>
+</table>
+</fieldset>
+<br>
+<fieldset>
+<legend>
+<b>FAVES:</b></legend>
+<table>
+
+<tr>
+	<td style="width:30%">COLORS:
+	</td>
+	<td><input type="checkbox" id="color" name="color1" value="Red">
+<label for="color"> Red</label>
+<input type="checkbox" id="color" name="color2" value="Black">
+<label for="color"> Black</label><br>
+<input type="checkbox" id="color" name="color3" value="Pink">
+<label for="color"> Pink</label>
+<input type="checkbox" id="color" name="color4" value="Yellow">
+<label for="color"> Yellow</label><br>
+<input type="checkbox" id="color" name="color5" value="Blue">
+<label for="color"> Blue</label>
+<input type="checkbox" id="color" name="color6" value="Green">
+<label for="color"> Green</label><br>
+<input type="checkbox" id="color" name="others" value="Others">
+<label for="color"> Others</label>
+<label for="others">Please Specify: </label><input type="text" id="others" name="others" value="" size="15">
+<br>
+
+	</td>
+</tr>
+<tr>
+	<td>PET:
+	</td>
+	<td><input type="text" name="pet" value="" size="60">
+	</td>
+</tr>
+<tr>
+	<td>CARTOON MOVIE: 
+	</td>
+	<td><input type="text" name="cmovie" value="" size="60">
+	</td>
+</tr>
+<tr>
+	<td>CARTOON CHARACTER: 
+	</td>
+	<td><input type="text" name="cchar" value="" size="60">
+	</td>
+</tr>
+<tr>
+	<td>FOOD:
+	</td>
+	<td><input type="text" name="food" value="" size="60">
+	</td>
+</tr>
+<tr>
+	<td>RESTAURANT:
+	</td>
+	<td><input type="text" name="resto" value="" size="60">
+	</td>
+</tr>
+<tr>
+	<td>WHY DO YOU LIKE<br> ME AS YOUR FRIEND?
+	</td>
+	<td><textarea rows="2" cols="59"></textarea>
+	</td>
+</tr>
+<tr>
+	<td>MESSAGE FOR ME:
+	</td>
+	<td><textarea rows="2" cols="59"></textarea>
+	</td>
+</tr>
+<tr>
+	<td><input type="submit" value="SEND"> <input type="reset" value="CLEAR">
+	</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
