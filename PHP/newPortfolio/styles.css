@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+@font-face {
+    font-family: "GTimes";
+    src: url('Assets/Fonts/good-times-rg.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: AT;
+    src: url('Assets/Fonts/auto-techno.ttf');
+}
+
+/* Page-Font-Properties */
+.navbar-brand, .nav-item,  h1{
+    font-family: GTimes;
+}
+
+h2, p, span{
+    font-family: Raleway;
+}
+
+/* Page-Properties */
+.dark-section{
+    background: url("Assets/peakpx.jpg");
+    background-color: rgba(0,0,0,0.8); 
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#home{
+    height:100vh;
+}
+
+.myLogo{
+    max-width: 500px;
+    min-width: 100px;
+}
+
+
+/* Customized footer */
+.footer {
+    display:flex;
+    flex-direction: column;
+    background-color: #00301c;
+    padding: 20px;
+    width:100vw;
+    text-align: center;
+    align-items: center;
+}
+
+.links{
+    display: block;
+}
+
+.links:hover #color{
+    fill:#8b8b8b;
+}
+
+.icon-f{
+    width: 40px;
+    margin: 0 5px 5px;
+}
+
+.icon-f #color{
+    transition: 0.3s ease-in-out;
+}
+
+.icon-f:hover #color{
+    fill: white;
+}
+
+.icon-f #color {
+    fill:white;
+}
+
+.footerText span {
+    font-size: 15px;
+    color: white;
+}

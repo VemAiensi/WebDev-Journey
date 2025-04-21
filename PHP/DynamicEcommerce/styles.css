@@ -1,0 +1,28 @@
+.card-img-top{
+    width:100%;
+    height:20vw;
+    object-fit: cover;
+}
+
+.small-img{
+    width:100%;
+    height:10vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.productPic{
+    height: 50vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.body-index{
+    background-color: rgb(205, 215, 219);
+}
+
+.sticky { 
+    position: sticky; 
+    top: 100px; 
+    padding: 20px;
+}

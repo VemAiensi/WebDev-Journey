@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+.price{
+    color: #ff8800;
+    font-family: 'JetBrains Mono';
+    font-weight: bolder;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.card img{
+    height:400px;
+    object-fit: cover;
+}
+
+body{
+    background-color: rgba(255,255,255,0.9);
+    background-image: url("bg.jpg");
+    background-blend-mode:lighten;
+    background-size: cover;
+}
